@@ -16,8 +16,7 @@ typedef struct{
 } Person;
 ```
 
-程式參考:[linked.cpp](./linked.cpp)
-![linked.cpp](./linked.cpp)
+程式參考:[linked.cpp](cpp_language/linked/linked.cpp)
 
 ## 鏈表自定義
 
@@ -45,14 +44,14 @@ struct node *next;
 }Node;
 ```
 
-程式參考：[advlinked.cpp](./advlinked.cpp)
-![advlinked.cpp](./advlinked.cpp)
+程式參考：[advlinked.cpp](cpp_language/linked/advlinked.cpp)
 
 # 鏈表原理
 
 ## 烤串
 
 ![图片描述](./src/bbq.png)
+
 来源：[知乎](https://www.zhihu.com/column/p/32742113)
 
 - 一个烤串条里可以有不同食材，每个食材有固定的大小。你可以想象的是链表就是一个烤串条，节点就是食材。
@@ -97,5 +96,4 @@ struct node *next;
 ```
 
 1. 练习题: 如何合并多个有序链表为单一链表。
-   范例：[linked_merge.cpp](./linked_merge.cpp)
-   ![linked_merge.cpp](./linked_merge.cpp)
+   范例：[linked_merge.cpp](cpp_language/linked/linked_merge.cpp)
