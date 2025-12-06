@@ -16,8 +16,8 @@ typedef struct{
 } Person;
 ```
 
+程式參考:[linked.cpp](./linked.cpp)
 ![linked.cpp](./linked.cpp)
-程式參考:linked.cpp
 
 ## 鏈表自定義
 
@@ -45,8 +45,8 @@ struct node *next;
 }Node;
 ```
 
+程式參考：[advlinked.cpp](./advlinked.cpp)
 ![advlinked.cpp](./advlinked.cpp)
-程式參考:advlinked.cpp
 
 # 鏈表原理
 
@@ -95,3 +95,7 @@ struct node *next;
         head = head->next;
     }
 ```
+
+1. 练习题: 如何合并多个有序链表为单一链表。
+   范例：[linked_merge.cpp](./linked_merge.cpp)
+   ![linked_merge.cpp](./linked_merge.cpp)
