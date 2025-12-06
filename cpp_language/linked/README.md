@@ -97,5 +97,4 @@ struct node *next;
 ```
 
 1. 练习题: 如何合并多个有序链表为单一链表。
-   范例：[linked_merge.cpp](./linked_merge.cpp)
    ![linked_merge.cpp](./linked_merge.cpp)
