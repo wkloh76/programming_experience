@@ -16,7 +16,7 @@ typedef struct{
 } Person;
 ```
 
-程式參考:[linked.cpp](cpp_language/linked/linked.cpp)
+程式參考:[linked.cpp](./linked.cpp)
 
 ## 鏈表自定義
 
@@ -44,7 +44,7 @@ struct node *next;
 }Node;
 ```
 
-程式參考：[advlinked.cpp](cpp_language/linked/advlinked.cpp)
+程式參考：[advlinked.cpp](.//advlinked.cpp)
 
 # 鏈表原理
 
@@ -96,4 +96,6 @@ struct node *next;
 ```
 
 1. 练习题: 如何合并多个有序链表为单一链表。
-   范例：[linked_merge.cpp](cpp_language/linked/linked_merge.cpp)
+   范例：[linked_merge.cpp](./linked_merge.cpp)
+2. 删除链表内的最节点最小值。 范例：[deletesmallerlinked.cpp](./deletesmallerlinked.cpp)
+3. forder formula 范例：[forder.cpp](./forder.cpp)
